@@ -450,7 +450,7 @@ function App() {
                     <Route path="/auth/login" element={<Login onLogin={userName} />} />
                     <Route path="/auth/signup" element={<Signup onLogin={userName} />} />
                     <Route path="/" element={<About />} />
-                    <Route path="/food" element={<Food />} />
+                    <Route path="/food" element={<Food/>} />
                     <Route path="/admin" element={<AdminPage />} />
                     <Route path="/admin/alluserorder" element={<AllUserOrders />} />
                     <Route path="/admin/ordersadmin" element={<OrdersAdmin />} />
