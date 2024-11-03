@@ -405,7 +405,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import { useContext } from "react";
 import "./App.css";
 import About from "./pages/About";
-import Food from "./pages/food";
+import Food from "./pages/Food";
 import Single from "./pages/[id]/Single";
 import Auth from "./pages/auth/Auth";
 import Login from "./pages/auth/Login";
